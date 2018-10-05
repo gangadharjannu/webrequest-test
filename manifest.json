@@ -1,0 +1,17 @@
+{
+    "name": "Chrome webrequest api test",
+    "description": "chrome extension to check webrequest api usage",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    }
+}
